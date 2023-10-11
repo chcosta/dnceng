@@ -18,7 +18,7 @@ stages:
       inputs:
         packageType: sdk
         useGlobalJson: false
-        version: 8.0.100-rc.1.23455.8
+        version: 8.0.100-rc.1.23463.5
         includePreviewVersions: true
         workingDirectory: $(Build.SourcesDirectory)
         installationPath: $(Build.SourcesDirectory)/.dotnet
