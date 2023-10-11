@@ -10,8 +10,6 @@ stages:
       name: NetCore-Public          
       demands: ImageOverride -equals 1es-windows-2019-open
 
-    variables:
-
     steps:
     - checkout: self
       clean: true
