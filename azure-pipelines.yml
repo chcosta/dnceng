@@ -242,7 +242,7 @@ extends:
         parameters:
           ${{ if ne(variables['Build.SourceBranch'], 'refs/heads/production') }}:
             DeploymentEnvironment: Staging
-            DotNetStatusAppName: dotneteng-status-staging
+            DotNetStatusAppName: dotneteng-status
             DotNetStatusEndpoint: .NET Engineering Deployment Notification - Staging
             PublishProfile: Int
             RolloutScorerAppName: rollout-scorer-int
